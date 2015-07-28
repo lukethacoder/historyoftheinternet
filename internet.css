@@ -1,0 +1,226 @@
+body{
+	background-color: #7BBBDE;
+}
+#main{
+	width: 80%;
+	margin: auto;
+}
+#info{  /* info box that sets text to the left and image to the right */
+	width: 100%;
+	height: auto;
+	float: left;
+	background-color:#ACDDF7;
+	margin-top: 3%;
+}
+#info h2{ /* heading of the paragraph */
+	width: 90%;
+	float: left;
+	margin-left: 5%;
+	font-size: 32px;
+}
+#info p{ /* paragraph properties */
+	width: 90%;
+	float: left;
+	margin-left: 5%;
+	font-size: 24px;
+}
+#info2{ /* info box that sets text to the right and image to the left */
+	width: 100%;
+	height: auto;
+	float: left;
+	background-color:#ACDDF7;
+	margin-top: 0%;
+}
+#info2 iframe{
+	width: 90%;
+	height: 600px;
+	float: left;
+	margin-left: 5%;
+}
+#info3{ /* info box that sets text to the right and image to the left */
+	width: 100%;
+	height: auto;
+	float: right;
+	background-color:#ACDDF7;
+	margin-top: 0%;
+}
+#info3 h2{ /* paragraph properties */
+	width: 90%;
+	float: left;
+	margin-left: 5%;
+	margin-top: 8%;
+	font-size: 32px;
+}
+#info3 p{ /* paragraph properties */
+	width: 90%;
+	float: left;
+	margin-left: 5%;
+	margin-top: 0%;
+	font-size: 24px;
+}
+#info4{ /* info box that sets text to the right and image to the left */
+	width: 100%;
+	height: auto;
+	float: left;
+	background-color:#ACDDF7;
+	margin-top: 0%;
+}
+#info4 img{
+	width: 90%;
+	float: left;
+	margin-left: 5%;
+	
+}
+#info5{ /* info box that sets text to the right and image to the left */
+	width: 100%;
+	height: auto;
+	float: right;
+	background-color:#ACDDF7;
+	margin-top: 0%;
+}
+#info5 p{ /* paragraph properties */
+	width: 90%;
+	float: left;
+	margin-left: 5%;
+	margin-top: 2%;
+	font-size: 24px;
+}
+#info6{ /* info box that sets text to the right and image to the left */
+	width: 100%;
+	height: auto;
+	float: left;
+	background-color:#ACDDF7;
+	margin-top: 0%;
+}
+#info6 img{
+	width: 90%;
+	float: left;
+	margin-left: 5%;
+	
+}
+#info7{ /* info box that sets text to the right and image to the left */
+	width: 100%;
+	height: auto;
+	float: right;
+	background-color:#ACDDF7;
+	margin-top: 0%;
+}
+#info7 p{ /* paragraph properties */
+	width: 90%;
+	float: left;
+	margin-left: 5%;
+	margin-top: 2%;
+	font-size: 24px;
+}
+#info8{ /* info box that sets text to the right and image to the left */
+	width: 100%;
+	height: auto;
+	float: left;
+	background-color:#ACDDF7;
+	margin-top: 0%;
+}
+#info8 img{
+	width: 90%;
+	float: left;
+	margin-left: 5%;	
+}
+#info9{ /* info box that sets text to the right and image to the left */
+	width: 100%;
+	height: auto;
+	float: right;
+	background-color:#ACDDF7;
+	margin-top: 0%;
+}
+#info9 p{ /* paragraph properties */
+	width: 90%;
+	float: left;
+	margin-left: 5%;
+	margin-top: 2%;
+	font-size: 24px;
+}
+#info10{ /* info box that sets text to the right and image to the left */
+	width: 100%;
+	height: auto;
+	float: left;
+	background-color:#ACDDF7;
+	margin-bottom: 5%;
+}
+#info10 img{
+	width: 90%;
+	float: left;
+	margin-left: 5%;
+	margin-bottom: 5%;
+}
+#image01{
+	float: right;
+	margin: 1%;
+	width: 40%;
+}
+#header{
+	width:100%;
+	height:auto;
+	background-color:#7BBBDE;
+}
+#header img{
+	width: 100%;
+	height: auto;
+}
+#droptab{
+	margin-top:2%;
+	width: 100%;
+}
+#droptab ul{
+	list-style:none;
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0;
+	width: 100%; /* used to adjust tab size */
+}
+#droptab ul a{
+	display:block;
+	color:#333;
+	text-decoration:none;
+	font-weight:700;
+	font-size:12px;
+	line-height:32px;
+	padding:0 15px;
+	width: 100%;
+}
+#droptab ul li{
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0;
+	width: 18%; /* adjust tab size */
+}
+#droptab ul li.dropdown{
+	background:#CAEBFD;
+	width: 10%; /* adjust the home buttom size */
+}
+#droptab ul li:hover{
+	background:#ACDDF7
+}
+#droptab ul ul{
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	background:#CAEBFD;
+	padding:0;
+}
+#droptab ul ul li{
+	float:none;
+	width:100%; /* adjust the drop tab color change size */
+}
+#droptab ul ul a{
+	line-height:120%;
+	padding:10px 15px
+}
+#droptab ul ul ul{
+	top:0;
+	left:100%
+}
+#droptab ul li:hover > ul{
+	display:block
+}

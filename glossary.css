@@ -1,0 +1,108 @@
+body{
+	background-color: #7BBBDE;
+	background-image: url("image03.jpg");
+	background-size: 180px;
+}
+#main{
+	width: 80%;
+	margin: auto;
+}
+#paragraph{ /* adjust the text boxes div */
+	background-color:#ACDDF7;
+	float: left;
+	width: 100%;
+	margin-top: 3%;
+	margin-bottom: 5%;
+}
+#paragraph p{ /* adjust text box properties */
+	width: 90%;
+	margin-left: 5%;
+	font-size: 24px;
+}
+#paragraph h2{ /* adjust text box properties */
+	width: 90%;
+	margin: 5%;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	font-size: 36px;
+}
+#paragraph h3{ /* adjust text box properties */
+	width: 90%;
+	margin-left: 5%;
+	margin-top: 1%;
+	font-size: 28px;
+}
+#paragraph img{ /* adjust the internet image */
+	width: 98%;
+	margin: 1%;
+	margin-bottom: 1%;	
+	float: left;
+}
+#header{
+	width:100%;
+	height:auto;
+	background-color:#7BBBDE;
+}
+#image01{
+	width: 100%;
+	height: auto;
+}
+#droptab{
+	margin-top:2%;
+	width: 100%;
+}
+#droptab ul{
+	list-style:none;
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0;
+	width: 100%; /* used to adjust tab size */
+}
+#droptab ul a{
+	display:block;
+	color:#333;
+	text-decoration:none;
+	font-weight:700;
+	font-size:12px;
+	line-height:32px;
+	padding:0 15px;
+	width: 100%;
+}
+#droptab ul li{
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0;
+	width: 18%; /* adjust tab size */
+}
+#droptab ul li.dropdown{
+	background:#CAEBFD;
+	width: 10%; /* adjust the home buttom size */
+}
+#droptab ul li:hover{
+	background:#ACDDF7
+}
+#droptab ul ul{
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	background:#CAEBFD;
+	padding:0;
+}
+#droptab ul ul li{
+	float:none;
+	width:100%; /* adjust the drop tab color change size */
+}
+#droptab ul ul a{
+	line-height:120%;
+	padding:10px 15px
+}
+#droptab ul ul ul{
+	top:0;
+	left:100%
+}
+#droptab ul li:hover > ul{
+	display:block
+}
